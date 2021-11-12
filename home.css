@@ -1,0 +1,425 @@
+/* * Heading and logo styling ends */
+
+#home {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: orange; */
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+#home > div {
+  /* border: 1px solid goldenrod; */
+  width: 400px;
+  height: 100px;
+  /* background-color: teal; */
+}
+
+.imagediv > img {
+  height: 100%;
+  padding-left: 80px;
+}
+
+#home > div > input {
+  margin-top: 10%;
+  width: 80%;
+  margin-left: 5%;
+  padding: 5px;
+  /* border: 1px solid black; */
+}
+
+#home > div:nth-child(3) {
+  box-sizing: border-box;
+  padding-left: 40%;
+  padding-top: 30px;
+}
+
+.btndiv > a > button {
+  vertical-align: middle;
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: black;
+  color: white;
+  width: 80px;
+  padding: 5px;
+}
+
+/* Heading and logo styling ends */
+/*----------------------------------------------------------------- NavBar styling start---------------------------------------- */
+#nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+#nav > div {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+#nav > div > a {
+  text-decoration: none;
+  color: black;
+ 
+}
+
+#nav > div > a:hover{
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+#nav > div:hover {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+#cat {
+  width: 150px;
+  font-size: 20px;
+  border: 0px;
+  font-weight: bold;
+}
+#cat:hover {
+  background-color: black;
+  color: white;
+}
+#nav > div:nth-child(1) {
+  background-color: black;
+  color: white;
+}
+
+/*------------------------------------------------------------ NavBar styling ends ----------------------------------------------- */
+
+/* ----------------------------------------------------------Sliding Images styling start----------------------------------------- */
+#sliding {
+  border: 1px solid black;
+  width: 100%;
+  height: 500px;
+  margin: 20px 0px;
+}
+
+#sliding > img {
+  width: 100%;
+  height: 500px;
+}
+
+/* ----------------------------------------------------------- Sliding Images styling Ends---------------------------------------------- */
+
+/* 0---------------------------------------------- Foot Wear Logo and Kitchen Logo styling Starts---------------------  */
+#footWearLogos {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 11% 30% 11%;
+  justify-content: center;
+  margin: 20px;
+}
+
+#footWearLogos > div {
+  /* background-color: teal; */
+  padding: 5px;
+  height: 100px;
+  box-sizing: border-box;
+}
+#footWearLogos > div:nth-child(2) {
+  font-size: 32px;
+  text-align: center;
+  padding-top: 8%;
+  color: #32526c;
+}
+
+#footWearLogos > div > img {
+  padding-left: 0px;
+  width: 100%;
+  height: 60%;
+  padding-top: 10%;
+}
+
+#footWearLogos > div > img:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px;
+  border-radius: 10%;
+}
+
+/* ------------------------------------------------Foot Wear And Logo Styling Kitchen Logo Ends --------------- */
+
+/*-------------------------------------------------- First Big Image Styling Starts  -------------------*/
+
+.firstPic {
+  width: 96%;
+  height: 280px;
+
+  margin: auto;
+  margin-bottom: 40px;
+}
+.firstPic > img {
+  padding-left: 0px;
+  width: 100%;
+}
+.firstPic > img:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: 1px solid whitesmoke;
+}
+
+/* -----------------------------------------------5 image Boxes  and Spices % images Boxes Styling Starts---------------------  */
+#boxes {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 19%);
+  grid-gap: 15px;
+  margin-bottom: 40px;
+}
+#boxes > div {
+  width: 100%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color: teal;
+}
+#boxes > div > img {
+  width: 100%;
+  padding-left: 0px;
+}
+#boxes > div :hover {
+  border: 1px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* -------------------------------------------------------5 image Boxes and Spices % images Boxes Styling Ends-----------------  */
+
+/* ------------------------------------------------------Sample Image style Starts  -------------------------------*/
+
+.simpleImage > img {
+  width: 100%;
+  padding-left: 0px;
+  margin: 40px 0px;
+}
+
+/* ------------------------------------------------------Sample Image style Ends  -------------------------------*/
+
+/* -----------------------------------------------------------Three Boxes Styling Starts  --------------------------------------------*/
+
+#threeBoxes {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 25px;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+#threeBoxes > div {
+  background-color: teal;
+  width: 100%;
+  height: 300px;
+}
+
+#threeBoxes > div > img {
+  padding-left: 0px;
+  width: 100%;
+  height: 300px;
+}
+
+#threeBoxes > div > img:hover {
+  border: 1px solid grey;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* -----------------------------------------------------------Three Boxes Styling Ends  --------------------------------------------*/
+
+/*------------------------------------------------ HeadPhones Styling Starts ----------------------------------- */
+
+#headphone > img {
+  padding-left: 0px;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+#headphone > img:hover {
+  border: 1px solid grey;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/*------------------------------------------------ HeadPhones Styling Ends ----------------------------------- */
+
+#lastbox {
+  width: 80%;
+  margin: auto;
+  line-height: 25px;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+#lastbox > h1 {
+  font-size: 38px;
+  line-height: 40px;
+  text-align: center;
+  color: #32526c;
+}
+
+/* -----------------------------------------------------------* Heading and logo media query starts ------------------------------------ */
+
+@media screen and (min-width: 0px) and (max-width: 649px) {
+  #home {
+    grid-template-areas: "b" "c" "a";
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
+  #home > div:nth-child(1) {
+    grid-area: "a";
+   
+    width:50%;
+    margin-left: 30%;
+  }
+  #home > div:nth-child(2) {
+    grid-area: b;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 8%;
+    color: #32526c;
+    margin: auto;
+  }
+
+  #home > div:nth-child(3) {
+    padding-left: 0%;
+    grid-area: c;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width:650px) and (max-width:1000px){
+  #home {
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 20px;
+  }
+  
+}
+
+/*---------------------------------------------------- Heading and logo styling media query ends ------------------------------  */
+
+/* ------------------------------------------------------------NavBar Media Query Starts----------------------------------------  */
+
+@media screen and (min-width: 0px) and (max-width: 649px) {
+  #nav {
+    flex-direction: column;
+  }
+  #nav > div {
+    width: 100%;
+  }
+}
+/* --------------------------------------------------------------NavBar Media Query Ends ------------------------------------------------- */
+
+/*------------------------------------------------------------- Foot Wear Logos Kitchen Logo  Media Query Starts ------------------------------------- */
+
+@media screen and (min-width: 0px) and (max-width: 649px) {
+  #footWearLogos {
+    grid-template-columns: 60%;
+    grid-template-rows: repeat(3, 30%);
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  #footWearLogos > div:nth-child(2) {
+    padding-top: 30px;
+  }
+  #footWearLogos > div > img {
+    width: 80%;
+    height: 60%;
+    padding-left: 5%;
+  }
+}
+/*------------------------------------------------------------- Foot Wear Logos Kitchen Logo  Media Query Ends ------------------------------------- */
+
+/*-------------------------------------------------- First Big Image Media Query Starts  -------------------*/
+
+@media screen and (min-width: 0px) and (max-width: 649px) {
+  .firstPic {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .firstPic > img {
+    padding-left: 0px;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+  .firstPic {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .firstPic > img {
+    padding-left: 0px;
+    width: 100%;
+    height: 100px;
+  }
+}
+/*------------------------------------------ First Big Image Media Query Ends --------------------------------  */
+
+/*------------------------------ 5 image Boxes and Spices % images Boxes Media Query Starts---------------------------------- */
+
+@media screen and (min-width: 0px) and (max-width: 649px) {
+  #boxes {
+    grid-template-columns: 90%;
+    grid-template-rows: repeat(5, 20%);
+    grid-row-gap: 20px;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    
+
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+  #boxes {
+    margin-top: -100px;
+    justify-content: center;
+  }
+}
+
+/* ---------------------------------------5 image Boxes and Spices % images Boxes Media Query Ends---------------------------  */
+
+/* -----------------------------------------------Three Boxes Media Query  Starts -------------------------------------- */
+
+@media screen and (min-width: 0px) and (max-width: 649px) {
+  #threeBoxes {
+    grid-template-columns: 90%;
+    grid-template-rows: repeat(3, 34%);
+    margin: auto;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+  #threeBoxes {
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: 30%;
+    margin: auto;
+  }
+}
+
+/* -----------------------------------------------Three Boxes Media Query  Ends -------------------------------------- */
+
+/* -------------------------------------------------------Sample Image Media Query Starts  ------------------------------*/
+
+@media screen and (min-width: 0) and (max-width: 649px) {
+  .simpleImage > img {
+    margin-top: 100px;
+  }
+}
+
+/* --------------------------------------------------------Sample Image Media Query  Ends ------------------------------ */

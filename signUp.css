@@ -1,0 +1,89 @@
+#signup {
+  width: 30%;
+  border: 1px solid grey;
+  margin: auto;
+  margin-top: 50px;
+  padding: 2%;
+  background-color: #cfd8dc;
+  line-height: 30px;
+}
+h1 {
+  text-align: center;
+  color: #32526c;
+  font-size: 33px;
+  margin-bottom: 8%;
+}
+p {
+  font-size: 18px;
+  text-align: center;
+}
+label {
+  font-size: 20px;
+}
+input {
+  width: 93%;
+  margin: 2% 0%;
+  padding: 7px;
+}
+#signup > button {
+  width: 96%;
+  padding: 10px;
+  font-size: 20px;
+  margin: 8% auto;
+  background-color: #ffa726;
+  color: black;
+  border: 1px solid black;
+}
+
+
+
+#home {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: orange; */
+    grid-gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  #home > div {
+    /* border: 1px solid goldenrod; */
+    width: 400px;
+    height: 100px;
+    /* background-color: teal; */
+  }
+  
+  .imagediv > img {
+    height: 100%;
+    
+  }
+  
+  #home > div > input {
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 5%;
+    padding: 5px;
+    /* border: 1px solid black; */
+  }
+  #home > div:nth-child(2){
+    margin-left: 100px;
+  }
+  
+  
+  #home > div:nth-child(3) {
+    box-sizing: border-box;
+    padding-left: 40%;
+    padding-top: 30px;
+  }
+  
+  .btndiv > a > button  {
+    vertical-align: middle;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: black;
+    color: white;
+    width: 80px;
+    padding: 5px;
+  }

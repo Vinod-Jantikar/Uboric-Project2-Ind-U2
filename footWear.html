@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foot Wear - Uboric</title>
+    <link rel="stylesheet" href="footWear.css" />
+  </head>
+  <body>
+    <div id="home">
+        <div><input type="search" placeholder="Search here"></div>
+        <div class="imagediv">
+            <img src="https://www.uboric.com/wp-content/uploads/2021/04/uboric.svg" alt="">
+        </div>
+        <div class="btndiv">
+          <a href="signIn.html"><button>Login</button></a> 
+          <a href="cart.html"><button>Go to Cart</button></a> 
+       </div>
+    </div>
+
+    <div class="sort">
+      <select id="sorting" onchange="sortByPrice()">
+        <option value="">Sort By Price</option>
+        <option value="low">Low to High</option>
+        <option value="high">High to Low</option>
+      </select>
+    </div>
+    <div class="sort">
+      <select id="sortingByName" onchange="sortByName()">
+        <option value="">Sort By Name</option>
+        <option value="asc">Ascending</option>
+        <option value="des">Descending</option>
+      </select>
+    </div>
+  </body>
+</html>
+<script src="footWear.js"></script>

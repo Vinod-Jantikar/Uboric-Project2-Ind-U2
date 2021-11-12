@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment - Uboric</title>
+    <link rel="stylesheet" href="payment.css" />
+  </head>
+  <body>
+    <div id="paymentDiv">
+      <div>
+        <img
+          src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2017/10/04/Pictures/sbi_03c3b4dc-a8f2-11e7-8fa9-3a95f17ae4d1.jpg"
+          alt=""
+        />
+        <img
+          src="https://download.logo.wine/logo/PhonePe/PhonePe-Logo.wine.png"
+          alt=""
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Google_Pay_%28GPay%29_Logo_%282018-2020%29.svg/2560px-Google_Pay_%28GPay%29_Logo_%282018-2020%29.svg.png"
+          alt=""
+        />
+      </div>
+
+      <input
+        type="number"
+        name=""
+        id="cardNumber"
+        placeholder="Enter Card Number"
+      />
+      <input type="text" name="" id="name" placeholder="Enter Name" />
+      <input type="password" name="" id="cvv" placeholder="CVV" />
+      <input type="date" name="" id="date" placeholder="Expiry Date" />
+      <button>Pay Now</button>
+    </div>
+  </body>
+</html>
+
+<script>
+  document.querySelector("button").addEventListener("click", function () {
+    var cardNumber = document.getElementById("cardNumber").value;
+    var name = document.getElementById("name").value;
+    var cvv = document.getElementById("cvv").value;
+
+    if (cardNumber.length === 16 && cvv.length === 3) {
+      alert("Payment Success");
+      window.location.href = "home.html"
+    } else {
+      alert("Invalid Card Credentials");
+    }
+  });
+</script>

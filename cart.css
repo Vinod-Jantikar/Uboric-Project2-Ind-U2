@@ -1,0 +1,103 @@
+#main {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 20px;
+  width: 60%;
+
+  grid-row-gap: 20px;
+}
+#main > div {
+  width: 100%;
+
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+img {
+  width: 95%;
+}
+h1 {
+  font-size: 15px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+#main > div > button {
+  background-color: #90a4ae;
+  color: white;
+  margin-left: 19%;
+  margin-bottom: 2%;
+
+  padding: 2%;
+  width: 60%;
+}
+
+#totalDiv {
+  width: 35%;
+  float: right;
+  padding-top: 0px;
+  padding: 0px 80px;
+ height: 450px;
+ 
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+#totalDiv > h1 {
+  font-size: 22px;
+  color: red;
+  text-align: left;
+}
+
+#priceBox {
+  width: 70%;
+  border: 1px solid black;
+  height: 20px;
+
+  padding: 10px;
+  font-size: 25px;
+  color: green;
+}
+
+#btn {
+  width: 25%;
+  padding: 8px;
+  margin-top: 20px;
+  font-size: 15px;
+  color: white;
+  background-color: #ff9800;
+  border: 0px;
+}
+input {
+  width: 45%;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.totalPrice {
+  width: 70%;
+  border: 1px solid black;
+  height: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 25px;
+  color: green;
+  margin-bottom: 20px;
+}
+
+p{
+  margin-bottom: -10px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#buyNow {
+  width: 80%;
+  
+  margin-top: 60px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #5C6BC0;
+  color: white;
+  border: 0px;
+}
